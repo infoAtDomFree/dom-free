@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-12-28T19:41:48.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="vB4ihhMzxNIwN_5Sf4Hc" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-28T19:55:56.572Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="RoJsjY01Qy-_eWpjxa-G" type="github">
   <diagram id="r4Rfx2sB27aUpCLin4zI" name="Page-1">
-    <mxGraphModel dx="612" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="720" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="91GSV8DJHnnXLhYhKvte-1" value="Your Browser JavaScript" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="70" y="80" width="170" height="330" as="geometry" />
+          <mxGeometry x="70" y="80" width="170" height="480" as="geometry" />
         </mxCell>
         <mxCell id="91GSV8DJHnnXLhYhKvte-2" value="DOM FREE&lt;br&gt;SMS&lt;br&gt;(State Management Service)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="275" y="80" width="150" height="330" as="geometry" />
+          <mxGeometry x="275" y="80" width="150" height="480" as="geometry" />
         </mxCell>
         <mxCell id="91GSV8DJHnnXLhYhKvte-3" value="Your &quot;Business Library&quot; JavaScript&lt;br&gt;Activated by DOM events" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="460" y="80" width="150" height="330" as="geometry" />
+          <mxGeometry x="460" y="80" width="150" height="480" as="geometry" />
         </mxCell>
         <mxCell id="91GSV8DJHnnXLhYhKvte-5" value="Registers DOM objects&lt;br&gt;with SMS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="95" y="140" width="120" height="80" as="geometry" />
@@ -20,19 +20,77 @@
           <mxGeometry x="95" y="230" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="91GSV8DJHnnXLhYhKvte-7" value="Gets Element values from SMS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="475" y="140" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="91GSV8DJHnnXLhYhKvte-8" value="Performs needed Business logic" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="475" y="230" width="120" height="70" as="geometry" />
+          <mxGeometry x="470" y="210" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="91GSV8DJHnnXLhYhKvte-10" value="Updates values and attributes of SMS elements" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="475" y="310" width="120" height="90" as="geometry" />
+          <mxGeometry x="460" y="450" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="91GSV8DJHnnXLhYhKvte-11" value="Updates values and attributes of DOM elements" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="310" width="120" height="80" as="geometry" />
+          <mxGeometry x="280" y="430" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="91GSV8DJHnnXLhYhKvte-12" value="Stores a reference&lt;br&gt;to each DOM element, making&lt;br&gt;it available &lt;br&gt;to the BL" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="160" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="91GSV8DJHnnXLhYhKvte-5" target="91GSV8DJHnnXLhYhKvte-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="200" as="sourcePoint" />
+            <mxPoint x="340" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-18" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="91GSV8DJHnnXLhYhKvte-17">
+          <mxGeometry x="0.2162" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-19" value="User Initiates an event" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="315" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.042;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="91GSV8DJHnnXLhYhKvte-19" target="91GSV8DJHnnXLhYhKvte-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="220" as="sourcePoint" />
+            <mxPoint x="340" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-21" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="91GSV8DJHnnXLhYhKvte-20">
+          <mxGeometry x="-0.6924" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-22" value="2" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.031;entryY=0.695;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="91GSV8DJHnnXLhYhKvte-6" target="91GSV8DJHnnXLhYhKvte-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="220" as="sourcePoint" />
+            <mxPoint x="340" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-26" value="4" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="91GSV8DJHnnXLhYhKvte-7" target="91GSV8DJHnnXLhYhKvte-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="220" as="sourcePoint" />
+            <mxPoint x="540" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-27" value="5" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="91GSV8DJHnnXLhYhKvte-8" target="91GSV8DJHnnXLhYhKvte-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="380" as="sourcePoint" />
+            <mxPoint x="545" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-28" value="6" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="91GSV8DJHnnXLhYhKvte-10" target="91GSV8DJHnnXLhYhKvte-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="410" as="sourcePoint" />
+            <mxPoint x="340" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-29" value="DOM Elements are updated by the SMS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="395" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-30" value="7" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="91GSV8DJHnnXLhYhKvte-11" target="91GSV8DJHnnXLhYhKvte-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="420" as="sourcePoint" />
+            <mxPoint x="340" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-8" value="Performs needed Business logic" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="340" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
