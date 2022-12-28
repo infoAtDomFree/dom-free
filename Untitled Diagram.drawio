@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-12-28T15:45:03.804Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="UV4i-OIlaqzREvDk-2NY" type="github"><diagram id="yuFb37Msvi3rs8C46K3I">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-28T19:38:54.009Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="Jdpq0JakURgMBqDkD3Hq" type="github">
+  <diagram id="r4Rfx2sB27aUpCLin4zI" name="Page-1">
+    <mxGraphModel dx="612" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="91GSV8DJHnnXLhYhKvte-1" value="Your Browser JavaScript" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="170" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-2" value="DOM FREE&lt;br&gt;SMS&lt;br&gt;(State Management Service)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="275" y="80" width="150" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-3" value="Your &quot;Business Library&quot; JavaScript&lt;br&gt;Activated by DOM events" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="460" y="80" width="150" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-5" value="Registers DOM objects&lt;br&gt;with SMS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-6" value="Registers Event Sources with SMS, attaching Business Layer methods" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-7" value="Gets Element values from SMS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-8" value="Performs needed Business logic" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="230" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-10" value="Updates values and attributes of SMS elements" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="310" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-11" value="Updates values and attributes of DOM elements" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="91GSV8DJHnnXLhYhKvte-12" value="Stores a reference&lt;br&gt;to each DOM element, making&lt;br&gt;it available &lt;br&gt;to the BL" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="160" width="120" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
