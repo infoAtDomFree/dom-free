@@ -73,3 +73,11 @@ it('should be able to Copy First Name to Last Name when clicked', function() {
 This test passes, proving the the Library is able to modify the "DOM" as required.
 
 Obviously, this is a test that does not prove very much, but in a realistic scenario, the result of a complicated Library function is indeed the changing of one or more DOM elements' values or attributes, which can be verified in unit tests.
+
+## How to install DOM-FREE
+```
+npm install infoAtDomFree/dom-free
+```
+
+## Sample Code
+You can see example code at https://github.com/infoAtDomFree/example
